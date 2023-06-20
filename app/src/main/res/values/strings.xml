@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Basic Banking App</string>
+    <string name="title_activity_users">List Of All Users</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="title_activity_transaction">Transaction History</string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="account_balance">Account Balance :</string>
+    <string name="account_no">Account No. :</string>
+    <string name="account_holder_name">Account Holder Name :</string>
+    <string name="payment_page">Payment Page</string>
+    <string name="pay">Pay</string>
+    <string name="send_to">Send To</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Basic Banking App"
+            android:textColor="#152FBD"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="290dp"
+                android:layout_height="228dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/bankphoto" />
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnUsers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="Users" />
+
+        <Button
+            android:id="@+id/btnTransactionHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Transaction Details" />
+    </LinearLayout>
+</LinearLayout>
